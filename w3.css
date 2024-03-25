@@ -709,8 +709,6 @@ color: white;
     padding-left:12.5%;
     
 }
-
-/* ====================================================================== */
 .spaces{
     text-align: center;
     margin-top: 8%;
@@ -965,45 +963,53 @@ color: white;
     background-color: #282A35;
 }
 .career{
-    padding: 5%;
-    line-height: 100px;
-    /* position: relative; */
+    background-color: #282A35;
+    padding-left: 7%;
+    line-height: 6em;
+    padding-bottom:11%;
 }
 .career h1{
+    font-size: 60px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
     color: #FFC0C7;
-    font-family: 'Source Sans Pro', sans-serif ;
-    font-size: 40px;
-    font-weight: 700;
+    padding-left: 7%;
+    padding-top: 5%;
 }
-.career h2{
-    font-size: 2em;
+.career p{
     color: #FFC0C7;
+    font-size: 32px;
+    padding-left: 7%;
 }
-.btn10{
+.hre{
     background-color: #04AA6D;
-    border-radius: 25px;
-    color: white;
-    padding: 1.5%;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius:25px;
+    max-width: 200px;
     border: none;
-    margin-bottom: 2%;
-    width: 200px;
-}
-.btn10:hover{
-    opacity: 0.9;
+    color: white;
+    padding: 1% 1%;
+    text-decoration: none;
+    padding-left:5%;
+    padding-right: 5%;
+    margin-left: 7%;
 }
 .w3image9{
-    display: flex;
-    justify-content: flex-end;
+    position: absolute;
+    right: 170px;
+    width: 170px;
+    z-index: 1;
 }
 .w3image10{
-    display: flex;
-    justify-content: flex-start;
-    height: 400px;
-    width: 400px;
     position: absolute;
-    z-index: 4;
-    margin-right: 7%;
-    margin-top: -20%;
+    right: 25px;
+    width: 180px;
+}
+.loose{
+    position:relative;
+    margin-right: 5%;
 }
 .section{
     background-color: #FFFFFF;
